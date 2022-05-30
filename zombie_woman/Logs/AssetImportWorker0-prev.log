@@ -15,11 +15,11 @@ E:/stud/GitHub/GitHubDesktop/20220527_Zom_srKang_ZomWoman/ZombieWoman/zombie_wom
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61438
+60322
 Successfully changed project path to: E:/stud/GitHub/GitHubDesktop/20220527_Zom_srKang_ZomWoman/ZombieWoman/zombie_woman
 E:/stud/GitHub/GitHubDesktop/20220527_Zom_srKang_ZomWoman/ZombieWoman/zombie_woman
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 67.77 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 72.86 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.28f1 (f5400f52e03f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Resources/UnitySubsystems
@@ -41,200 +41,168 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56008
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56912
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003350 seconds.
+Registered in 0.004253 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 69.65 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 74.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.186 seconds
+- Completed reload, in  1.349 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1187ms)
-		BeginReloadAssembly (131ms)
+	ReloadAssembly (1349ms)
+		BeginReloadAssembly (154ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (914ms)
-			LoadAssemblies (126ms)
+		EndReloadAssembly (1046ms)
+			LoadAssemblies (150ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (299ms)
+			SetupTypeCache (313ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (332ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (435ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (70ms)
-				BeforeProcessingInitializeOnLoad (27ms)
-				ProcessInitializeOnLoadAttributes (169ms)
-				ProcessInitializeOnLoadMethodAttributes (57ms)
+				RefreshPlugins (75ms)
+				BeforeProcessingInitializeOnLoad (28ms)
+				ProcessInitializeOnLoadAttributes (230ms)
+				ProcessInitializeOnLoadMethodAttributes (93ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005066 seconds.
+Registered in 0.010154 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.021 seconds
+- Completed reload, in  2.360 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2022ms)
-		BeginReloadAssembly (300ms)
+	ReloadAssembly (2362ms)
+		BeginReloadAssembly (342ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (1886ms)
+			LoadAssemblies (229ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (613ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (88ms)
+			SetupLoadedEditorAssemblies (792ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (189ms)
+				ProcessInitializeOnLoadAttributes (519ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1534 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.4 MB.
+System memory in use after: 147.5 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1974.
+Total: 5.814256 ms (FindLiveObjects: 0.303416 ms CreateObjectMapping: 0.118196 ms MarkObjects: 5.256787 ms  DeleteObjects: 0.131329 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Models/zombiegirl_w_kurniawan@Zombie Headbutt 2.fbx
+  artifactKey: Guid(a8625583ea459c245b31ad192b1c5ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/zombiegirl_w_kurniawan@Zombie Headbutt 2.fbx using Guid(a8625583ea459c245b31ad192b1c5ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da4e07230bf12a9e3244f6d436aa6ea5') in 0.749291 seconds 
+  Import took 0.755270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 192.633759 seconds.
+  path: Assets/Animations/Zombie Animator.controller
+  artifactKey: Guid(8eebe7519312a5c4eaeed6cd5ebb0411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Zombie Animator.controller using Guid(8eebe7519312a5c4eaeed6cd5ebb0411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '143637f2cfa0642916a9ff515030ad58') in 0.231938 seconds 
+  Import took 0.238165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 121.070403 seconds.
+  path: Assets/Materials/ZombieWoman/zombiegirl_w_kurniawan@Zombie Headbutt 3.fbx
+  artifactKey: Guid(9fcec5e75c15ef244978161d0bdeaa15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ZombieWoman/zombiegirl_w_kurniawan@Zombie Headbutt 3.fbx using Guid(9fcec5e75c15ef244978161d0bdeaa15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e293037033eeddfea899cccbb9c68da') in 0.211299 seconds 
+  Import took 0.217167 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014896 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.453 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2454ms)
+		BeginReloadAssembly (234ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (1608ms)
-			LoadAssemblies (207ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (2094ms)
+			LoadAssemblies (230ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (564ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (88ms)
-			SetupLoadedEditorAssemblies (602ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (176ms)
-				ProcessInitializeOnLoadAttributes (384ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1534 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 147.5 MB.
-System memory in use after: 147.6 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1974.
-Total: 6.153900 ms (FindLiveObjects: 0.682458 ms CreateObjectMapping: 0.198352 ms MarkObjects: 5.129986 ms  DeleteObjects: 0.140839 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/Models/mutant@Breakdance 1990.fbx
-  artifactKey: Guid(349622d81695c114f95e49217361a350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/mutant@Breakdance 1990.fbx using Guid(349622d81695c114f95e49217361a350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b709b72cf77ddc6b365299b53dc4be') in 0.261592 seconds 
-  Import took 0.266841 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.686644 seconds.
-  path: Assets/Models/zombiegirl_w_kurniawan@Zombie Headbutt 3.fbx
-  artifactKey: Guid(f10007669faa0f147821ae2631d7090d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/zombiegirl_w_kurniawan@Zombie Headbutt 3.fbx using Guid(f10007669faa0f147821ae2631d7090d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153bd354941d46d98b0ee723cd079b77') in 0.108723 seconds 
-  Import took 0.114615 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 307.808124 seconds.
-  path: Assets/Models/mutant@Breakdance 1990.fbx
-  artifactKey: Guid(349622d81695c114f95e49217361a350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/mutant@Breakdance 1990.fbx using Guid(349622d81695c114f95e49217361a350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8140510cb18f3a96be32a8f191d18dbd') in 0.079566 seconds 
-  Import took 0.088443 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 52.019676 seconds.
-  path: Assets/Models/mutant@Breakdance 1990.fbx
-  artifactKey: Guid(349622d81695c114f95e49217361a350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/mutant@Breakdance 1990.fbx using Guid(349622d81695c114f95e49217361a350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b03f60c8f0865745a27f6da25254f026') in 0.109522 seconds 
-  Import took 0.115375 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.475319 seconds.
-  path: Assets/Models/mutant@Breakdance 1990.fbx
-  artifactKey: Guid(349622d81695c114f95e49217361a350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/mutant@Breakdance 1990.fbx using Guid(349622d81695c114f95e49217361a350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b14e46c53f6e60ec5fa7e80a792d238') in 0.097918 seconds 
-  Import took 0.104637 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 331.448725 seconds.
-  path: Assets/Animations/Zombie Animator.controller
-  artifactKey: Guid(8eebe7519312a5c4eaeed6cd5ebb0411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Zombie Animator.controller using Guid(8eebe7519312a5c4eaeed6cd5ebb0411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7cd45b6546a82797fc88e126f520a28') in 0.223425 seconds 
-  Import took 0.230692 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.732681 seconds.
-  path: Assets/Models/zombiegirl_w_kurniawan@Zombie Headbutt 3.fbx
-  artifactKey: Guid(2f596e2518cd2444ea0e2a61fb1f0502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/zombiegirl_w_kurniawan@Zombie Headbutt 3.fbx using Guid(2f596e2518cd2444ea0e2a61fb1f0502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64948f0c25a8463e2a00a0092c1bb8d6') in 0.095123 seconds 
-  Import took 0.101334 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005032 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.945 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1946ms)
-		BeginReloadAssembly (210ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (52ms)
-		EndReloadAssembly (1618ms)
-			LoadAssemblies (203ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (559ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (84ms)
-			SetupLoadedEditorAssemblies (611ms)
+			SetupTypeCache (741ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (116ms)
+			SetupLoadedEditorAssemblies (663ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (170ms)
-				ProcessInitializeOnLoadAttributes (386ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
-				AfterProcessingInitializeOnLoad (15ms)
+				BeforeProcessingInitializeOnLoad (205ms)
+				ProcessInitializeOnLoadAttributes (408ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (16ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1515 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 149.5 MB.
-System memory in use after: 149.7 MB.
+System memory in use after: 149.6 MB.
 
 Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2019.
-Total: 5.546617 ms (FindLiveObjects: 0.288471 ms CreateObjectMapping: 0.115026 ms MarkObjects: 5.099192 ms  DeleteObjects: 0.041210 ms)
+Total: 5.611828 ms (FindLiveObjects: 0.318813 ms CreateObjectMapping: 0.113215 ms MarkObjects: 5.135421 ms  DeleteObjects: 0.041210 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -247,50 +215,90 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 82.269667 seconds.
+  path: Assets/Models/zombiegirl_w_kurniawan@Zombie Headbutt 2.fbx
+  artifactKey: Guid(a8625583ea459c245b31ad192b1c5ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/zombiegirl_w_kurniawan@Zombie Headbutt 2.fbx using Guid(a8625583ea459c245b31ad192b1c5ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daebf41e11d09862b83898a46c0ed31f') in 0.235407 seconds 
+  Import took 0.242118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.999983 seconds.
+  path: Assets/Models/zombiegirl_w_kurniawan@Zombie Headbutt 2.fbx
+  artifactKey: Guid(a8625583ea459c245b31ad192b1c5ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/zombiegirl_w_kurniawan@Zombie Headbutt 2.fbx using Guid(a8625583ea459c245b31ad192b1c5ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aa8471dc264c408a0aef891ffe755cd') in 0.148573 seconds 
+  Import took 0.155927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.527643 seconds.
+  path: Assets/Models/zombie_diffuse.png
+  artifactKey: Guid(04b8138dd4c72c946a57bb1c0d9374da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/zombie_diffuse.png using Guid(04b8138dd4c72c946a57bb1c0d9374da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a63fca79f3ffdab9cee2f0fe9b2b2409') in 0.069545 seconds 
+  Import took 0.074628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.678764 seconds.
+  path: Assets/Models/zombie_normal.png
+  artifactKey: Guid(6df6c3b2a3051124589906fa228d39d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/zombie_normal.png using Guid(6df6c3b2a3051124589906fa228d39d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '104c7ba04135cab38ad101ea9d66b2c6') in 0.082232 seconds 
+  Import took 0.087967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.976193 seconds.
+  path: Assets/Models/zombie_specular.png
+  artifactKey: Guid(6fb33e3d2118b0243b4888fbb8ad8a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/zombie_specular.png using Guid(6fb33e3d2118b0243b4888fbb8ad8a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f3a684cd2a49da80a7831e12423c3f') in 0.032152 seconds 
+  Import took 0.037833 seconds .
+
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005415 seconds.
+Registered in 0.011194 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.877 seconds
+- Completed reload, in  1.934 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1878ms)
-		BeginReloadAssembly (212ms)
+	ReloadAssembly (1935ms)
+		BeginReloadAssembly (228ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (52ms)
-		EndReloadAssembly (1552ms)
-			LoadAssemblies (203ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1584ms)
+			LoadAssemblies (224ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (542ms)
+			SetupTypeCache (553ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (78ms)
-			SetupLoadedEditorAssemblies (570ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (568ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (166ms)
-				ProcessInitializeOnLoadAttributes (359ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (15ms)
+				BeforeProcessingInitializeOnLoad (172ms)
+				ProcessInitializeOnLoadAttributes (352ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (14ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1515 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 149.6 MB.
 System memory in use after: 149.7 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2021.
-Total: 5.368190 ms (FindLiveObjects: 0.298887 ms CreateObjectMapping: 0.113215 ms MarkObjects: 4.914426 ms  DeleteObjects: 0.039399 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2025.
+Total: 5.389022 ms (FindLiveObjects: 0.302510 ms CreateObjectMapping: 0.123178 ms MarkObjects: 4.920766 ms  DeleteObjects: 0.040757 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -303,169 +311,346 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 34.51 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 119.4 MB.
-System memory in use after: 119.5 MB.
+Received Import Request.
+  Time since last request: 206.566326 seconds.
+  path: Assets/Models/zombiegirl_w_kurniawan@Zombie Headbutt 3.fbx
+  artifactKey: Guid(2f596e2518cd2444ea0e2a61fb1f0502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/zombiegirl_w_kurniawan@Zombie Headbutt 3.fbx using Guid(2f596e2518cd2444ea0e2a61fb1f0502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b86a97f78ee81ae2ecf384d99fe99e') in 0.275366 seconds 
+  Import took 0.281370 seconds .
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2021.
-Total: 10.732758 ms (FindLiveObjects: 0.444708 ms CreateObjectMapping: 0.183861 ms MarkObjects: 10.038525 ms  DeleteObjects: 0.061136 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 12.775011 seconds.
+  path: Assets/Models/zombiegirl_w_kurniawan@Zombie Headbutt 4.fbx
+  artifactKey: Guid(20373b27b890a9845807a98b7feb37ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/zombiegirl_w_kurniawan@Zombie Headbutt 4.fbx using Guid(20373b27b890a9845807a98b7feb37ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14dc8eea1f817a7f3bb18fc1b8c13100') in 0.135771 seconds 
+  Import took 0.141450 seconds .
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 12.575594 seconds.
+  path: Assets/Models/zombiegirl_w_.fbx
+  artifactKey: Guid(2f596e2518cd2444ea0e2a61fb1f0502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/zombiegirl_w_.fbx using Guid(2f596e2518cd2444ea0e2a61fb1f0502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12828086322cc82603d6e392edbb9ae') in 0.133170 seconds 
+  Import took 0.139903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.717457 seconds.
+  path: Assets/Animations/Zombie Animator.controller
+  artifactKey: Guid(8eebe7519312a5c4eaeed6cd5ebb0411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Zombie Animator.controller using Guid(8eebe7519312a5c4eaeed6cd5ebb0411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ecc96deb3e970f5945127b1e2b6b5a') in 0.221251 seconds 
+  Import took 0.226822 seconds .
+
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004890 seconds.
+Registered in 0.009180 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.000 seconds
+- Completed reload, in  1.981 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4001ms)
-		BeginReloadAssembly (231ms)
+	ReloadAssembly (1982ms)
+		BeginReloadAssembly (233ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1629ms)
+			LoadAssemblies (222ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (535ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (617ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (175ms)
+				ProcessInitializeOnLoadAttributes (396ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1515 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.6 MB.
+System memory in use after: 149.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2028.
+Total: 5.604130 ms (FindLiveObjects: 0.294811 ms CreateObjectMapping: 0.115479 ms MarkObjects: 5.128628 ms  DeleteObjects: 0.062947 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 618.103897 seconds.
+  path: Assets/Animations/zombiegirl_w_kurniawan@Zombie Headbutt 4.controller
+  artifactKey: Guid(98c64b0f4a3c3954f82decc2139de6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/zombiegirl_w_kurniawan@Zombie Headbutt 4.controller using Guid(98c64b0f4a3c3954f82decc2139de6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2411b2dcc15bfd006a7b1bbcf91be8a3') in 0.027960 seconds 
+  Import took 0.033074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.673237 seconds.
+  path: Assets/Animations/Zombie Idle.anim
+  artifactKey: Guid(9c9ac29e30e4d42c2993cc5472073146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Zombie Idle.anim using Guid(9c9ac29e30e4d42c2993cc5472073146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c5a1e85b1860218e758e9d1a1db726e') in 0.140869 seconds 
+  Import took 0.146545 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009648 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.884 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2885ms)
+		BeginReloadAssembly (461ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (143ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (93ms)
+		EndReloadAssembly (2297ms)
+			LoadAssemblies (260ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (743ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (217ms)
+			SetupLoadedEditorAssemblies (799ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (194ms)
+				ProcessInitializeOnLoadAttributes (555ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1515 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.7 MB.
+System memory in use after: 149.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2030.
+Total: 5.489556 ms (FindLiveObjects: 0.297075 ms CreateObjectMapping: 0.114120 ms MarkObjects: 5.035792 ms  DeleteObjects: 0.040304 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 266.522185 seconds.
+  path: Assets/Models/zombiegirl_w_.fbx
+  artifactKey: Guid(2f596e2518cd2444ea0e2a61fb1f0502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/zombiegirl_w_.fbx using Guid(2f596e2518cd2444ea0e2a61fb1f0502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2ce25250ec4c5c739b534613a81b186') in 0.261403 seconds 
+  Import took 0.267017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.507786 seconds.
+  path: Assets/Models/zombiegirl_w_.fbx
+  artifactKey: Guid(2f596e2518cd2444ea0e2a61fb1f0502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/zombiegirl_w_.fbx using Guid(2f596e2518cd2444ea0e2a61fb1f0502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d04b1e8165e70e9b3ba023defca117d') in 0.113267 seconds 
+  Import took 0.119548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 189.038374 seconds.
+  path: Assets/Models/zombiegirl_w_boss.fbx
+  artifactKey: Guid(20373b27b890a9845807a98b7feb37ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/zombiegirl_w_boss.fbx using Guid(20373b27b890a9845807a98b7feb37ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92df76d36b43f4f484af5abcee9df814') in 0.136972 seconds 
+  Import took 0.142805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 256.112766 seconds.
+  path: Assets/Animations/Zombie Run.anim
+  artifactKey: Guid(6e30ce1e1db8ebb49b29ef0440c4bc5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Zombie Run.anim using Guid(6e30ce1e1db8ebb49b29ef0440c4bc5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '815bc72adf11ed807ce6617420543b42') in 0.031524 seconds 
+  Import took 0.037283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.164158 seconds.
+  path: Assets/Animations/zombiegirl_w_boss.controller
+  artifactKey: Guid(edac920765d820d49b8c1fce9ea7a12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/zombiegirl_w_boss.controller using Guid(edac920765d820d49b8c1fce9ea7a12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16237022ab4a99e0c373cc7453e5fb1e') in 0.008793 seconds 
+  Import took 0.013967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.786656 seconds.
+  path: Assets/Animations/Zombie Animator.controller
+  artifactKey: Guid(8eebe7519312a5c4eaeed6cd5ebb0411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Zombie Animator.controller using Guid(8eebe7519312a5c4eaeed6cd5ebb0411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a0d990d2d1a5c6039def14781c50659') in 0.221655 seconds 
+  Import took 0.228261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.982752 seconds.
+  path: Assets/Animations/zombiegirl_w_kurniawan@Zombie Headbutt 4.controller
+  artifactKey: Guid(98c64b0f4a3c3954f82decc2139de6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/zombiegirl_w_kurniawan@Zombie Headbutt 4.controller using Guid(98c64b0f4a3c3954f82decc2139de6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e642cb38ccd8328f69fd6117021f6b24') in 0.137917 seconds 
+  Import took 0.144190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.900927 seconds.
+  path: Assets/Animations/zombieWoman_001.anim
+  artifactKey: Guid(2a6b69c5de6c9124281e57581ded9c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/zombieWoman_001.anim using Guid(2a6b69c5de6c9124281e57581ded9c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5bf356af50eaf03e8824d0b0d77c74b') in 0.009866 seconds 
+  Import took 0.015772 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012433 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.003 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2003ms)
+		BeginReloadAssembly (229ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1657ms)
+			LoadAssemblies (220ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (574ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (615ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (173ms)
+				ProcessInitializeOnLoadAttributes (393ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1515 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.7 MB.
+System memory in use after: 149.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2033.
+Total: 6.824585 ms (FindLiveObjects: 0.296623 ms CreateObjectMapping: 0.115479 ms MarkObjects: 6.354517 ms  DeleteObjects: 0.055702 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 687.325842 seconds.
+  path: Assets/Models/zombiegirl_w_kurniawan@Zombie Headbutt 3.fbx
+  artifactKey: Guid(59238eff55bacd54ca3dff89f0322e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/zombiegirl_w_kurniawan@Zombie Headbutt 3.fbx using Guid(59238eff55bacd54ca3dff89f0322e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d85cfdf8061d8cf9843725566465449') in 0.272802 seconds 
+  Import took 0.278673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 177.326039 seconds.
+  path: Assets/Animations/zombiegirl_w_boss.controller
+  artifactKey: Guid(edac920765d820d49b8c1fce9ea7a12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/zombiegirl_w_boss.controller using Guid(edac920765d820d49b8c1fce9ea7a12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1337d04cdb0b2a48418e5891352437b5') in 0.169623 seconds 
+  Import took 0.175254 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010786 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.929 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1931ms)
+		BeginReloadAssembly (236ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (64ms)
-		EndReloadAssembly (3628ms)
-			LoadAssemblies (238ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (1573ms)
+			LoadAssemblies (225ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1311ms)
+			SetupTypeCache (539ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (114ms)
-			SetupLoadedEditorAssemblies (1723ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (579ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (288ms)
-				ProcessInitializeOnLoadAttributes (1374ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (18ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (21ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1515 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.7 MB.
-System memory in use after: 149.8 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2023.
-Total: 7.156983 ms (FindLiveObjects: 0.420706 ms CreateObjectMapping: 0.151708 ms MarkObjects: 6.515735 ms  DeleteObjects: 0.065665 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 6.04 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 119.5 MB.
-System memory in use after: 119.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2023.
-Total: 5.791613 ms (FindLiveObjects: 0.296170 ms CreateObjectMapping: 0.111856 ms MarkObjects: 5.341019 ms  DeleteObjects: 0.040757 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008301 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.751 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3752ms)
-		BeginReloadAssembly (238ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (57ms)
-		EndReloadAssembly (3332ms)
-			LoadAssemblies (314ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1470ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (260ms)
-			SetupLoadedEditorAssemblies (960ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (334ms)
-				ProcessInitializeOnLoadAttributes (573ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
+				BeforeProcessingInitializeOnLoad (176ms)
+				ProcessInitializeOnLoadAttributes (358ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
 				AfterProcessingInitializeOnLoad (14ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1515 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 149.7 MB.
-System memory in use after: 149.8 MB.
+System memory in use after: 149.9 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2025.
-Total: 7.088601 ms (FindLiveObjects: 0.399874 ms CreateObjectMapping: 0.124083 ms MarkObjects: 6.517093 ms  DeleteObjects: 0.043022 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 7.64 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 119.5 MB.
-System memory in use after: 119.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2025.
-Total: 7.953109 ms (FindLiveObjects: 0.386742 ms CreateObjectMapping: 0.136311 ms MarkObjects: 7.375714 ms  DeleteObjects: 0.051173 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2036.
+Total: 5.384946 ms (FindLiveObjects: 0.302057 ms CreateObjectMapping: 0.119555 ms MarkObjects: 4.919860 ms  DeleteObjects: 0.040757 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -478,24 +663,11 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 5.87 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 119.5 MB.
-System memory in use after: 119.6 MB.
+Received Import Request.
+  Time since last request: 11.491389 seconds.
+  path: Assets/Animations/zombiegirl_w_boss.controller
+  artifactKey: Guid(edac920765d820d49b8c1fce9ea7a12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/zombiegirl_w_boss.controller using Guid(edac920765d820d49b8c1fce9ea7a12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05bebb5b0790554ecc80b9b96080ee11') in 0.176310 seconds 
+  Import took 0.181756 seconds .
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2025.
-Total: 7.097206 ms (FindLiveObjects: 0.292094 ms CreateObjectMapping: 0.111403 ms MarkObjects: 6.606307 ms  DeleteObjects: 0.083779 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
